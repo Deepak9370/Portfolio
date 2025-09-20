@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -6,12 +7,15 @@
   <title>Deepak Rathod — Portfolio</title>
 
   <!-- Google Font -->
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS (via CDN as requested) -->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Basic meta for accessibility and theme color -->
+
   <meta name="theme-color" content="#0f1724">
 
   <style>
@@ -207,6 +211,7 @@
     }
 
   </style>
+
 </head>
 
 <body>
@@ -218,214 +223,215 @@
         <h1 id="hero-heading" class="hero-title">RATHOD DEEPAK</h1>
         <p class="hero-sub">Full Stack Python Developer • Fresh Graduate (B.E. Computer Science)</p>
 
-        <!-- Summary pulled from resume -->
-        <p class="muted" style="max-width:68ch;">
-          As a motivated and adaptable fresher, I possess strong core programming skills and a passion for learning and growth.
-          I am seeking opportunities to contribute my technical abilities while continuing to learn in a collaborative environment.
+```
+    <!-- Summary pulled from resume -->
+    <p class="muted" style="max-width:68ch;">
+      As a motivated and adaptable fresher, I possess strong core programming skills and a passion for learning and growth.
+      I am seeking opportunities to contribute my technical abilities while continuing to learn in a collaborative environment.
+    </p>
+
+    <!-- CTA buttons -->
+    <div class="mt-3 d-flex flex-wrap gap-2" role="group" aria-label="Primary actions">
+      <!-- Contact button anchors to contact section -->
+      <a class="btn btn-cta" href="#contact" title="Contact Deepak">Hire / Contact Me</a>
+      <!-- Resume download - create a mailto fallback as well -->
+
+      <!-- View projects quick link -->
+      <a class="btn btn-outline" href="#projects" title="View projects">View Projects</a>
+    </div>
+
+    <!-- Quick contact/social links -->
+    <div class="mt-3" aria-hidden="false">
+
+      <p class="btn btn-outline" >Contact & social</p>
+      <nav aria-label="Social links">
+        <ul class="list-unstyled d-flex gap-2 align-items-center" style="margin:0; padding:0;">
+          <li>
+            <a class="btn-outline" href="tel:+919370646300" aria-label="Call Deepak">📞 +91-9370646300</a>
+          </li>
+          <li>
+            <a class="btn-outline" href="mailto:deepaksurykantrathod@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="mail Deepak">✉️ Email</a>
+          </li>
+          <li>
+            <a class="btn-outline" href="https://www.linkedin.com/in/deepak-rathod-69a30a316/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+          </li>
+          <li>
+            <a class="btn-outline" href="https://github.com/Deepak9370" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Profile Card on the right -->
+  <aside class="profile-card" aria-label="Profile">
+    <!-- Use exact filename Deepak.jpg as requested -->
+    <img src="Deepak.jpg" alt="Deepak Rathod — profile photo" width="200" height="200" />
+    <div>
+      <p style="margin:.25rem 0 .15rem 0; font-weight:700;">Deepak Rathod</p>
+      <p class="muted" style="margin:0; font-size:.92rem;">B.E. Computer Science & Engineering (2021-2025)</p>
+    </div>
+
+    <!-- Mini stats -->
+    <div class="d-flex gap-2 mt-2">
+      <span class="skill" style="background:rgba(6,182,212,0.08); color:var(--accent);">Full Stack Python</span>
+      <span class="skill" style="background:rgba(6,182,212,0.08); color:var(--accent);">HTML & CSS</span>
+    </div>
+  </aside>
+</header>
+
+<!-- TWO-COLUMN: About + Side quick facts -->
+<section class="card" aria-labelledby="about-heading">
+  <div class="two-col">
+    <div>
+      <h2 id="about-heading">About Me</h2>
+      <p class="muted">
+        I am an enthusiastic fresher with solid fundamentals in programming and a keen interest in web development.
+        I'm a quick learner, a good listener, and enjoy working both independently and collaboratively.
+      </p>
+
+      <!-- Experience summary (fresher) -->
+      <h3 style="margin-top:1rem; font-size:1rem; color: #176bd3">Profile Summary</h3>
+      <p class="muted">Fresher • Strong basics in Python, frontend (HTML/CSS), and SQL. Comfortable using VS Code and familiar with web frameworks like Django/Flask.</p>
+
+      <!-- Skills -->
+      <h3 style="margin-top:1rem; font-size:1rem; color: #176bd3">Skills</h3>
+      <div class="skills" role="list" aria-label="Skills list">
+        <!-- Skills taken directly from resume -->
+        <span class="skill" role="listitem">Full Stack Python</span>
+        <span class="skill" role="listitem">HTML</span>
+        <span class="skill" role="listitem">CSS</span>
+        <span class="skill" role="listitem">SQL (MySQL)</span>
+        <span class="skill" role="listitem">OOP Basics</span>
+        <span class="skill" role="listitem">VS Code</span>
+        <span class="skill" role="listitem">Adaptability</span>
+        <span class="skill" role="listitem">Teamwork</span>
+        <span class="skill" role="listitem">Problem Solving</span>
+      </div>
+    </div>
+
+    <!-- Right column: Education & quick contact card -->
+    <aside>
+      <div style="margin-bottom:.9rem; ">
+        <h2>Education</h2>
+        <div style="display:flex; flex-direction:column; gap:.6rem; color: #176bd3 ">
+          <div>
+            <strong>B.E. Computer Science and Engineering</strong><br>
+            <span class="muted">TPCT's College of Engineering, Dharashiv — 2021–2025 • CGPA: 7.3</span>
+          </div>
+          <div>
+            <strong>HSC</strong><br>
+            <span class="muted">Kai. Bhimrao Naik Higher Secondary School — 2021 • 73%</span>
+          </div>
+          <div>
+            <strong>SSC</strong><br>
+            <span class="muted">Shri Mahatma Basweshwar Vidyalay — 2019 • 49.80%</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding: .8rem; border-radius:10px; background:rgba(255,255,255,0.01); border:1px solid rgba(255,255,255,0.02);">
+        <h3 style="margin:0 0 .5rem 0;color: #edf5ef">Quick contact</h3>
+        <p style="margin:0;" class="muted">
+          <strong>Location:</strong> Omerga, Maharashtra, India<br>
+          <strong>Phone:</strong> <a href="tel:+919370646300">+91-9370646300</a><br>
+          <strong>Email:</strong> <a href="mailto:deepaksurykantrathod@gmail.com">deepaksurykantrathod@gmail.com</a>
         </p>
-
-        <!-- CTA buttons -->
-        <div class="mt-3 d-flex flex-wrap gap-2" role="group" aria-label="Primary actions">
-          <!-- Contact button anchors to contact section -->
-          <a class="btn btn-cta" href="#contact" title="Contact Deepak">Hire / Contact Me</a>
-          <!-- Resume download - create a mailto fallback as well -->
-
-          <!-- View projects quick link -->
-          <a class="btn btn-outline" href="#projects" title="View projects">View Projects</a>
-        </div>
-
-        <!-- Quick contact/social links -->
-        <div class="mt-3" aria-hidden="false">
-
-          <p class="btn btn-outline" >Contact & social</p>
-          <nav aria-label="Social links">
-            <ul class="list-unstyled d-flex gap-2 align-items-center" style="margin:0; padding:0;">
-              <li>
-                <a class="btn-outline" href="tel:+919370646300" aria-label="Call Deepak">📞 +91-9370646300</a>
-              </li>
-              <li>
-                <a class="btn-outline" href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener noreferrer" aria-label="mail Deepak">✉️ Email</a>
-              </li>
-              <li>
-                <a class="btn-outline" href="https://www.linkedin.com/in/deepak-rathod-69a30a316/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
-              </li>
-              <li>
-                <a class="btn-outline" href="https://github.com/Deepak9370" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
       </div>
+    </aside>
+  </div>
+</section>
 
-      <!-- Profile Card on the right -->
-      <aside class="profile-card" aria-label="Profile">
-        <!-- Use exact filename Deepak.jpg as requested -->
-        <img src="Deepak.jpg" alt="Deepak Rathod — profile photo" width="200" height="200" />
-        <div>
-          <p style="margin:.25rem 0 .15rem 0; font-weight:700;">Deepak Rathod</p>
-          <p class="muted" style="margin:0; font-size:.92rem;">B.E. Computer Science & Engineering (2021-2025)</p>
-        </div>
+<!-- Projects -->
+<section id="projects" class="card" aria-labelledby="projects-heading">
+  <h2 id="projects-heading">Projects</h2>
+  <p class="muted">Selected projects built using Python, Django/Flask, HTML, CSS and MySQL. Live demos and source code links included where available.</p>
 
-        <!-- Mini stats -->
-        <div class="d-flex gap-2 mt-2">
-          <span class="skill" style="background:rgba(6,182,212,0.08); color:var(--accent);">Full Stack Python</span>
-          <span class="skill" style="background:rgba(6,182,212,0.08); color:var(--accent);">HTML & CSS</span>
-        </div>
-      </aside>
-    </header>
-
-    <!-- TWO-COLUMN: About + Side quick facts -->
-    <section class="card" aria-labelledby="about-heading">
-      <div class="two-col">
-        <div>
-          <h2 id="about-heading">About Me</h2>
-          <p class="muted">
-            I am an enthusiastic fresher with solid fundamentals in programming and a keen interest in web development.
-            I'm a quick learner, a good listener, and enjoy working both independently and collaboratively.
-          </p>
-
-          <!-- Experience summary (fresher) -->
-          <h3 style="margin-top:1rem; font-size:1rem; color: #176bd3">Profile Summary</h3>
-          <p class="muted">Fresher • Strong basics in Python, frontend (HTML/CSS), and SQL. Comfortable using VS Code and familiar with web frameworks like Django/Flask.</p>
-
-          <!-- Skills -->
-          <h3 style="margin-top:1rem; font-size:1rem; color: #176bd3">Skills</h3>
-          <div class="skills" role="list" aria-label="Skills list">
-            <!-- Skills taken directly from resume -->
-            <span class="skill" role="listitem">Full Stack Python</span>
-            <span class="skill" role="listitem">HTML</span>
-            <span class="skill" role="listitem">CSS</span>
-            <span class="skill" role="listitem">SQL (MySQL)</span>
-            <span class="skill" role="listitem">OOP Basics</span>
-            <span class="skill" role="listitem">VS Code</span>
-            <span class="skill" role="listitem">Adaptability</span>
-            <span class="skill" role="listitem">Teamwork</span>
-            <span class="skill" role="listitem">Problem Solving</span>
-          </div>
-        </div>
-
-        <!-- Right column: Education & quick contact card -->
-        <aside>
-          <div style="margin-bottom:.9rem; ">
-            <h2>Education</h2>
-            <div style="display:flex; flex-direction:column; gap:.6rem; color: #176bd3 ">
-              <div>
-                <strong>B.E. Computer Science and Engineering</strong><br>
-                <span class="muted">TPCT's College of Engineering, Dharashiv — 2021–2025 • CGPA: 7.3</span>
-              </div>
-              <div>
-                <strong>HSC</strong><br>
-                <span class="muted">Kai. Bhimrao Naik Higher Secondary School — 2021 • 73%</span>
-              </div>
-              <div>
-                <strong>SSC</strong><br>
-                <span class="muted">Shri Mahatma Basweshwar Vidyalay — 2019 • 49.80%</span>
-              </div>
-            </div>
-          </div>
-
-          <div style="padding: .8rem; border-radius:10px; background:rgba(255,255,255,0.01); border:1px solid rgba(255,255,255,0.02);">
-            <h3 style="margin:0 0 .5rem 0;color: #edf5ef">Quick contact</h3>
-            <p style="margin:0;" class="muted">
-              <strong>Location:</strong> Omerga, Maharashtra, India<br>
-              <strong>Phone:</strong> <a href="tel:+919370646300">+91-9370646300</a><br>
-              <strong>Email:</strong> <a href="mailto:deepaksurykantrathod@gmail.com">deepaksurykantrathod@gmail.com</a>
-            </p>
-            <div class="mt-2 d-flex gap-2">
-              <a class="btn btn-cta" href="https://deepaksurykantrathod.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
-              <a class="btn btn-outline" href="https://github.com/Deepak9370" target="_blank" rel="noopener noreferrer">Source</a>
-            </div>
-          </div>
-        </aside>
+  <div class="project-grid" style="margin-top:1rem; color: #176bd3">
+    <!-- Project 1: Phone Hub -->
+    <article class="project" aria-labelledby="p1">
+      <div class="thumb" role="img" aria-label="Phone Hub project thumbnail">PHONE HUB</div>
+      <h3 id="p1" class="project-title">Phone Hub — Full-stack Django App</h3>
+      <p class="project-desc">Full-stack Django web app for managing and showcasing smartphones. Features CRUD operations, responsive design, animations, and reusable templates.</p>
+      <div class="mt-auto d-flex gap-2">
+        <a class="btn btn-cta" href="https://deepaksurykantrathod.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+        <a class="btn btn-outline" href="https://github.com/Deepak9370/SmartKart" target="_blank" rel="noopener noreferrer">Source Code</a>
       </div>
-    </section>
+    </article>
 
-    <!-- Projects -->
-    <section id="projects" class="card" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects</h2>
-      <p class="muted">Selected projects built using Python, Django/Flask, HTML, CSS and MySQL. Live demos and source code links included where available.</p>
-
-      <div class="project-grid" style="margin-top:1rem; color: #176bd3">
-        <!-- Project 1: Phone Hub -->
-        <article class="project" aria-labelledby="p1">
-          <div class="thumb" role="img" aria-label="Phone Hub project thumbnail">PHONE HUB</div>
-          <h3 id="p1" class="project-title">Phone Hub — Full-stack Django App</h3>
-          <p class="project-desc">Full-stack Django web app for managing and showcasing smartphones. Features CRUD operations, responsive design, animations, and reusable templates.</p>
-          <div class="mt-auto d-flex gap-2">
-            <a class="btn btn-cta" href="https://deepaksurykantrathod.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            <a class="btn btn-outline" href="https://github.com/Deepak9370/SmartKart" target="_blank" rel="noopener noreferrer">Source Code</a>
-          </div>
-        </article>
-
-        <!-- Project 2: Bid Bazzer -->
-        <article class="project" aria-labelledby="p2">
-          <div class="thumb" role="img" aria-label="Bid Bazzer project thumbnail">BID BAZZER</div>
-          <h3 id="p2" class="project-title">Bid Bazzer — Online Auction System</h3>
-          <p class="project-desc">Online Auction System allowing users to register, list items, and participate in bidding. Built with HTML/CSS/JS frontend and Python (Flask/Django) + MySQL backend.</p>
-          <div class="mt-auto d-flex gap-2">
-            <a class="btn btn-outline" href="mailto:deepaksurykantrathod@gmail.com?subject=Interested%20in%20Bid%20Bazzer" title="Request demo">Request Demo</a>
-            <a class="btn btn-outline" href="https://github.com/Deepak9370" target="_blank" rel="noopener noreferrer">More on GitHub</a>
-          </div>
-        </article>
-
-        <!-- Project 3: Placeholder for future projects -->
-        <article class="project" aria-labelledby="p3">
-          <div class="thumb" role="img" aria-label="Project thumbnail">PROJECT</div>
-          <h3 id="p3" class="project-title">More Projects</h3>
-          <p class="project-desc">Other small exercises and practice projects using frontend and Python backends. Visit my GitHub to explore additional repositories.</p>
-          <div class="mt-auto d-flex gap-2">
-            <a class="btn btn-cta" href="https://github.com/Deepak9370" target="_blank" rel="noopener noreferrer">Explore GitHub</a>
-            <a class="btn btn-outline" href="#contact">Contact</a>
-          </div>
-        </article>
+    <!-- Project 2: Bid Bazzer -->
+    <article class="project" aria-labelledby="p2">
+      <div class="thumb" role="img" aria-label="Bid Bazzer project thumbnail">BID BAZZER</div>
+      <h3 id="p2" class="project-title">Bid Bazzer — Online Auction System</h3>
+      <p class="project-desc">Online Auction System allowing users to register, list items, and participate in bidding. Built with HTML/CSS/JS frontend and Python (Flask/Django) + MySQL backend.</p>
+      <div class="mt-auto d-flex gap-2">
+        <a class="btn btn-outline" href="mailto:deepaksurykantrathod@gmail.com?subject=Interested%20in%20Bid%20Bazzer" title="Request demo">Request Demo</a>
+        <a class="btn btn-outline" href="https://github.com/Deepak9370" target="_blank" rel="noopener noreferrer">More on GitHub</a>
       </div>
-    </section>
+    </article>
 
-    <!-- Experience -->
-    <section class="card" aria-labelledby="experience-heading">
-      <h2 id="experience-heading">Experience</h2>
-      <p class="muted">Fresher — actively building projects while completing B.E. degree. Practical exposure through projects (Phone Hub, Bid Bazzer) involving full-stack development, CRUD operations, and responsive UX.</p>
-        <br>
+    <!-- Project 3: Placeholder for future projects -->
+    <article class="project" aria-labelledby="p3">
+      <div class="thumb" role="img" aria-label="Project thumbnail">PROJECT</div>
+      <h3 id="p3" class="project-title">More Projects</h3>
+      <p class="project-desc">Other small exercises and practice projects using frontend and Python backends. Visit my GitHub to explore additional repositories.</p>
+      <div class="mt-auto d-flex gap-2">
+        <a class="btn btn-cta" href="https://github.com/Deepak9370" target="_blank" rel="noopener noreferrer">Explore GitHub</a>
+        <a class="btn btn-outline" href="#contact">Contact</a>
+      </div>
+    </article>
+  </div>
+</section>
 
-    <!-- Contact -->
-    <section id="contact" class="card" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact</h2>
-      <p class="muted">Prefer email — but you can also use the quick contact form below. All fields are accessible and labelled.</p>
+<!-- Experience -->
+<section class="card" aria-labelledby="experience-heading">
+  <h2 id="experience-heading">Experience</h2>
+  <p class="muted">Fresher — actively building projects while completing B.E. degree. Practical exposure through projects (Phone Hub, Bid Bazzer) involving full-stack development, CRUD operations, and responsive UX.</p>
+  <br>
+</section>
 
-      <!-- Accessible contact form (no backend) - falls back to mailto on submit using JS -->
-      <form id="contactForm" class="mt-2" aria-label="Contact form">
-        <div class="mb-2">
-          <label for="name" class="form-label" style="color: #edf5ef">Name</label>
-          <input id="name" class="form-control" type="text" required aria-required="true" placeholder="Your name">
-        </div>
+<!-- Contact -->
+<section id="contact" class="card" aria-labelledby="contact-heading">
+  <h2 id="contact-heading">Contact</h2>
+  <p class="muted">Prefer email — but you can also use the quick contact form below. All fields are accessible and labelled.</p>
 
-        <div class="mb-2">
-          <label for="email" class="form-label" style="color: #edf5ef">Email</label>
-          <input id="email" class="form-control" type="email" required aria-required="true" placeholder="you@example.com">
-        </div>
-          
-        <div class="mb-2">
-          <label for="message" class="form-label" style="color: #edf5ef">Message</label>
-          <textarea id="message" class="form-control" rows="4" required aria-required="true" placeholder="Brief message"></textarea>
-        </div>
+  <!-- Accessible contact form (no backend) - falls back to mailto on submit using JS -->
+  <form id="contactForm" class="mt-2" aria-label="Contact form">
+    <div class="mb-2">
+      <label for="name" class="form-label" style="color: #edf5ef">Name</label>
+      <input id="name" class="form-control" type="text" required aria-required="true" placeholder="Your name">
+    </div>
 
-        <div class="d-flex gap-2">
-          <button type="submit" class="btn btn-cta" href="https://mail.google.com/mail/u/0/">Send Message</button>
-        </div>
+    <div class="mb-2">
+      <label for="email" class="form-label" style="color: #edf5ef">Email</label>
+      <input id="email" class="form-control" type="email" required aria-required="true" placeholder="you@example.com">
+    </div>
 
-        <p id="formNote" class="muted mt-2" style="font-size:.92rem;">Note: This form uses your email client (mailto) to send messages. If you prefer, email directly at <a href="https://mail.google.com/mail/u/0/">deepaksurykantrathod@gmail.com</a>.</p>
-      </form>
-    </section>
+    <div class="mb-2">
+      <label for="message" class="form-label" style="color: #edf5ef">Message</label>
+      <textarea id="message" class="form-control" rows="4" required aria-required="true" placeholder="Brief message"></textarea>
+    </div>
 
-    <!-- Footer -->
-    <footer role="contentinfo">
-      <!-- Show resume source file citation for traceability -->
-      <div style="margin-bottom:.5rem;">Resume content source: :contentReference[oaicite:1]{index=1}</div>
-      <div>&copy; <span id="year"></span> Deepak Rathod — Built with care • Accessible & responsive</div>
-    </footer>
+    <div class="d-flex gap-2">
+      <button type="submit" class="btn btn-cta" href="mailto:deepaksurykantrathod@gmail.com">Send Message</button>
+    </div>
+
+    <p id="formNote" class="muted mt-2" style="font-size:.92rem;">Note: This form uses your email client (mailto) to send messages. If you prefer, email directly at <a href="mailto:deepaksurykantrathod@gmail.com">deepaksurykantrathod@gmail.com</a>.</p>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer role="contentinfo">
+  <!-- Show resume source file citation for traceability -->
+  <div style="margin-bottom:.5rem;">Resume content source: :contentReference[oaicite:1]{index=1}</div>
+  <div>&copy; <span id="year"></span> Deepak Rathod — Built with care • Accessible & responsive</div>
+</footer>
+```
+
   </main>
 
   <!-- Minimal JS for interactivity (form mailto fallback, year) -->
+
   <script>
     // Set year in footer
     document.getElementById('year').textContent = new Date().getFullYear();
@@ -455,5 +461,6 @@
       setTimeout(() => { document.getElementById('name').focus(); }, 300);
     }
   </script>
+
 </body>
 </html>
